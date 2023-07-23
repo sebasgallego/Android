@@ -1,5 +1,5 @@
 
-# Challenge search app!!
+# Store App consumiendo api de mercado libre!!
 
 Aplicación android para buscar productos y ver su detalle, la información se carga desde las APIs que mercado libre tiene disponibles para la comunidad, desarrollada bajo la arquitectura MVVM que hace referencia a una forma de organizar el código de nuestra aplicación, mejora y facilita la intervención del código en caso de que se presente algún error o debamos realizarle mantenimiento al software.
  
