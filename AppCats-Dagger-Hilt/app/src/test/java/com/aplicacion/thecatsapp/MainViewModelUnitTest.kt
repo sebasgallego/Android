@@ -34,8 +34,7 @@ class MainViewModelUnitTest{
     @Before
     fun onBefore() {
         MockKAnnotations.init(this)
-        mainViewModel = MainViewModel()
-        mainViewModel.getCatsUseCase = getCatsUseCase
+        mainViewModel = MainViewModel(getCatsUseCase)
         Dispatchers.setMain(Dispatchers.Unconfined)
     }
 

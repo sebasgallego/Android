@@ -11,7 +11,6 @@ class CatAdapter : RecyclerView.Adapter<CatViewHolder>() {
 
     private var itemList: MutableList<Cat> = ArrayList()
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CatViewHolder {
         val binding: ListItemCatBinding =
             ListItemCatBinding.inflate(LayoutInflater.from(parent.context), parent, false)
